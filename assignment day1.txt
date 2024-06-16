@@ -1,0 +1,24 @@
+Time Complexity is defined as the number of times a particular instruction set is executed rather than the total time taken. It is because the total time taken also depends on some external factors like the compiler used, the processor’s speed, etc.
+
+Best Time Complexity: Define the input for which the algorithm takes less time or minimum time. In the best case calculate the lower bound of an algorithm. Example: In the linear search when search data is present at the first location of large data then the best case occurs.
+
+Average Time Complexity: In the average case take all random inputs and calculate the computation time for all inputs.
+And then we divide it by the total number of inputs.
+
+Worst Time Complexity: Define the input for which algorithm takes a long time or maximum time. In the worst calculate the upper bound of an algorithm. Example: In the linear search when search data is present at the last location of large data then the worst case occurs.
+
+
+Quick sort is an internal algorithm which is based on divide and conquer strategy. In this:
+
+The array of elements is divided into parts repeatedly until it is not possible to divide it further.
+It is also known as “partition exchange sort”.
+It uses a key element (pivot) for partitioning the elements.
+One left partition contains all those elements that are smaller than the pivot and one right partition contains all those elements which are greater than the key element
+
+
+Merge sort is an external algorithm and based on divide and conquer strategy. In this:
+
+The elements are split into two sub-arrays (n/2) again and again until only one element is left.
+Merge sort uses additional storage for sorting the auxiliary array.
+Merge sort uses three arrays where two are used for storing each half, and the third external one is used to store the final sorted list by merging other two and each array is then sorted recursively.
+At last, the all sub arrays are merged to make it ‘n’ element size of the array

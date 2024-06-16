@@ -1,0 +1,12 @@
+my_dict=dict()
+my_dict=dict(one=1,two=2,three=3)
+print(my_dict)
+my_dict_new={'one':1,'two':2,'three':3}
+print(my_dict_new)
+my_dict_new.clear()
+keys=['one','two','three']
+values=0
+my_dict_new_2=dict.fromkeys(keys,values)
+print(my_dict_new_2)
+my_dict_new_3={'one':1,'two':2,'three':3}
+print(my_dict_new_3.get('one'))

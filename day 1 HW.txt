@@ -1,0 +1,19 @@
+Quick sort is an internal algorithm which is based on divide and conquer strategy. In this:
+
+*The array of elements is divided into parts repeatedly until it is not possible to divide it further.
+*It is also known as “partition exchange sort”.
+*It uses a key element (pivot) for partitioning the elements.
+*One left partition contains all those elements that are smaller than the pivot and one right partition contains all those elements which are greater than the key element.
+
+
+Merge sort is an external algorithm and based on divide and conquer strategy. In this:
+
+*The elements are split into two sub-arrays (n/2) again and again until only one element is left.
+*Merge sort uses additional storage for sorting the auxiliary array.
+*Merge sort uses three arrays where two are used for storing each half, and the third external one is used to store the final sorted list by merging other two and each array is then sorted     recursively.
+*At last, the all sub arrays are merged to make it ‘n’ element size of the array.
+
+
+*Merge sort is more efficient and works faster than quick sort in case of larger array size or datasets. whereas Quick sort is more efficient and works faster than merge sort in case of smaller array size or datasets.
+
+*the time complexity is the computational complexity that describes the amount of computer time it takes to run an algorithm. Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm,

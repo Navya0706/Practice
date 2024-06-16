@@ -1,0 +1,23 @@
+Key points
+
+1. It's easy to learn
+2. High level object oriented programming language
+3. No need to declare a variable and no need to declare with a specific data type
+
+Space complexity: the amount of space utilised by the CPU to compile and run your program.
+efficiency: taking less space and less time to execute a task
+
+LINEAR: O(n)
+BINARY SEARCH: O(log(n))
+-------------------------
+Merge: O(n*log(n))
+Quick: O(n*log(n))
+
+Which is the best sorting algorithm? merge sort or quick sort?
+
+
+1.TIME COMPLEXITIES OF SORTING
+2.MERGE SORT VS QUICK SORT
+3.ORDER OF TIME COMPLEXITIES
+4.REVISION OF TODAYS TOPICS
+5.ARMSTRONG , HAPPY , STORNG , MAGIC NUMBER
