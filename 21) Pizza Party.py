@@ -12,6 +12,7 @@ Sample Input:
 100 17
 Sample Output:2'''
 
+
 N=int(input())
 n=int(input())
 sum=0
