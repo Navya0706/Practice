@@ -1,4 +1,4 @@
-# prime number 
+ # prime number 
 """m=int(input("enter message:"))
 flag=0
 if m<1:
